@@ -26,5 +26,4 @@ router.get('/:codigo', (req, res) => {
 });
 
 
-
 module.exports = router;
