@@ -1,11 +1,11 @@
 const mysql = require('mysql');
 
-//const mysqlConnection = mysql.createConnection({
-//  host: 'localhost',
-//  user: 'alexander',
-//  password: 'Alexrrlalh25!',
-//  database: 'lavanderia'
-//});
+const mysqlConnection = mysql.createConnection({
+  host: 'localhost',
+  user: 'alexander',
+  password: 'Alexrrlalh25!',
+  database: 'lavanderia'
+});
 
 //const mysqlConnection = mysql.createConnection({
 //  host: '54.175.48.207',
@@ -14,13 +14,13 @@ const mysql = require('mysql');
 //  database: 'heroku_fb8fc7b3b7789cc'
 //});
 
-const mysqlConnection = mysql.createConnection({
-  host: 'us-cdbr-iron-east-02.cleardb.net',
-  user: 'b88ac98fc118d2',
-  password: '8daa2e44!',
-  database: 'heroku_fb8fc7b3b7789cc',
-  port: 3306
-});
+//const mysqlConnection = mysql.createConnection({
+//  host: 'us-cdbr-iron-east-02.cleardb.net',
+//  user: 'b88ac98fc118d2',
+//  password: '8daa2e44!',
+//  database: 'heroku_fb8fc7b3b7789cc',
+//  port: 3306
+//});
 
 // 52.204.50.0
 
@@ -30,6 +30,9 @@ const mysqlConnection = mysql.createConnection({
 //GRANT ALL PRIVILEGES ON *.* TO 'b88ac98fc118d2'@'54.175.48.207' IDENTIFIED BY '8daa2e44';
 //GRANT ALL PRIVILEGES ON *heroku_fb8fc7b3b7789cc* TO 'b88ac98fc118d2'@'54.175.48.207' IDENTIFIED BY '8daa2e44';
 //create user 'alexander'@'54.175.48.207' identified by 'rrlalh25';
+
+
+//mysql -h us-cdbr-iron-east-02.cleardb.net -u root -p
 
 
 
